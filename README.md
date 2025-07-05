@@ -2,16 +2,16 @@
 
 ## Training & validation results (Accuracy, Precision, Recall, F1-Score)
 ### Task A
--Accuracy:
--Precision:
--Recall:
--F1-Score:
+- Accuracy:
+- Precision:
+- Recall:
+- F1-Score:
 
 ### Task B
--Accuracy:
--Precision:
--Recall:
--F1-Score:
+- Accuracy:
+- Precision:
+- Recall:
+- F1-Score:
 
 ## Overview
 
