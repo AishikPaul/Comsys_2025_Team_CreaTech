@@ -26,7 +26,8 @@
 - Precision: 0.9765
 - Recall: 0.9756
 - F1-Score: 0.9756
-#### Validation (The metrices of validation may change a little for differnt runs, as all the possible pairs are not generated due to RAM limits, rather all possible +ve pairs are generated then same number of -ve pairs are generated to make the dataset balanced)
+#### Validation  
+(The metrices of validation may change a little for differnt runs, as all the possible pairs are not generated due to RAM limits, rather all possible +ve pairs are generated then same number of -ve pairs are generated to make the dataset balanced)
 - Accuracy: 0.7593
 - Precision: 0.7850
 - Recall: 0.7593
