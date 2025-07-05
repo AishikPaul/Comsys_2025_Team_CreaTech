@@ -1,5 +1,5 @@
 # MobileNet-based Multi-Scale Feature Fusion Aided Window Attention Network
-* **_Advantage of the proposed Network: Similar Network Architecture outperformed for both Tasks_**
+* **_Advantage of the proposed Network: Similar Network Architecture outperformed for both Tasks_**  
 ** **Test Scripts are provided in folder "Model Weights Files"**
 ## Training & validation results (Accuracy, Precision, Recall, F1-Score)
 ### Task A
