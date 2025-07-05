@@ -27,7 +27,7 @@
 
 ## Folder Structure
 ├── Model Weight Files
-│ ├── Comsys_Test_Task_A.ipynb (test script for task A)
+│ ├── Comsys_Test_Task_A.ipynb (test script for task A) '''
 │ ├── Comsys_Test_Task_B.ipynb (test script for task B)
 │ ├── best_model_Task_A.pth (model weight for task A)
 │ └── best_model_Task_A.pth (model weight for task B)
