@@ -25,14 +25,8 @@
 - Recall: 0.7593
 - F1-Score: 0.7537
 
-## Overview
+## Folder Structure
 
-This repository presents a two-part visual intelligence system:
-
-- **Task A**: Multi-class image classification using a MobileNetV2 backbone fused with multiscale features and window-based attention.
-- **Task B**: Visual similarity detection using a Siamese network with shared encoders to generate robust embeddings.
-
-Both models are designed to be efficient, distortion-resilient, and effective on real-world data, including challenging image conditions.
 
 ---
 
