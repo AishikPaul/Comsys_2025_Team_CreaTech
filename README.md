@@ -26,8 +26,7 @@
 - F1-Score: 0.7537
 
 ## Folder Structure
-├── Model Weight Files 
-
+├── Model Weight Files  
 │ ├── Comsys_Test_Task_A.ipynb (test script for task A) 
 
 │ ├── Comsys_Test_Task_B.ipynb (test script for task B) 
