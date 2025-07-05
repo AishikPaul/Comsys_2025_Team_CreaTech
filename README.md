@@ -15,15 +15,15 @@
 
 ### Task B
 #### Training
-- Accuracy:
-- Precision:
-- Recall:
-- F1-Score:
+- Accuracy: 0.9756
+- Precision: 0.9765
+- Recall: 0.9756
+- F1-Score: 0.9756
 #### Validation
-- Accuracy:
-- Precision:
-- Recall:
-- F1-Score:
+- Accuracy: 0.7593
+- Precision: 0.7850
+- Recall: 0.7593
+- F1-Score: 0.7537
 
 ## Overview
 
@@ -97,32 +97,11 @@ Both models are designed to be efficient, distortion-resilient, and effective on
 
 ### Training Strategy
 
-- **Loss**: Binary CrossEntropy  
+- **Loss**: ContrastiveLoss  
 - **Optimizer**: Adam  
 - **Class Balance**: Ensured between positive and negative pairs
 
-### Augmentation for Robustness
 
-- Simulates fog, rain, motion blur, sun flare, low-light noise  
-- Used selectively to maintain pairwise similarity integrity
 
----
 
-## Results and Use-Cases
-
-- **Task A**: Robust multi-class classification under various distortions  
-- **Task B**: Embedding generation and verification under challenging conditions (e.g., fog, blur)
-
----
-
-## Applications
-
-- Smart Surveillance  
-- Biometric Authentication  
-- Image Retrieval  
-- Noise-Robust Visual Classification
-
----
-
-## Folder Structure
 
