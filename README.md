@@ -3,15 +3,15 @@
 ## Training & validation results (Accuracy, Precision, Recall, F1-Score)
 ### Task A
 #### Training
-- Accuracy:
-- Precision:
-- Recall:
-- F1-Score:
+- Accuracy: 0.9709
+- Precision: 0.9383
+- Recall: 0.9546
+- F1-Score: 0.9462
 #### Validation
-- Accuracy:
-- Precision:
-- Recall:
-- F1-Score:
+- Accuracy: 0.9479
+- Precision: 0.9293
+- Recall: 0.8949
+- F1-Score: 0.9108
 
 ### Task B
 #### Training
