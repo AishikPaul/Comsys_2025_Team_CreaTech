@@ -97,6 +97,11 @@
 - **Positive Pairs**: Same person, possibly one distorted (e.g., foggy, blurry)  
 - **Negative Pairs**: Randomly selected from different identities  
 - **CSV Logging**: Each pair and its label (1 or 0) is saved
+#### Pairs formed (for both +ve and -ve)
+- Normal-Normal
+- Normal-Distorted
+- Distorted-Distorted
+All possible +ve pairs formed then -ve pairs formed accordingly to make balanced dataset
 
 ### Training Strategy
 
