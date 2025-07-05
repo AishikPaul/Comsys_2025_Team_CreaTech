@@ -35,6 +35,8 @@
 │ ├── Task_A.ipynb (training script for task A, includes model architecture, data loading, training, validation, test) ```
 │ └── Task_B.ipynb (training script for task A, includes model architecture, data loading, training, validation, test) ```
 
+<pre><code>## 📁 Extended Folder Structure ``` . ├── Model Weight Files │ ├── Comsys_Test_Task_A.ipynb (test script for task A) │ ├── Comsys_Test_Task_B.ipynb (test script for task B) │ ├── best_model_Task_A.pth (model weight for task A) │ └── best_model_Task_B.pth (model weight for task B) ├── Notebooks │ ├── Task_A.ipynb (training script for task A, includes model architecture, data loading, training, validation, test) │ └── Task_B.ipynb (training script for task B, includes model architecture, data loading, training, validation, test) ``` </code></pre>
+
 ---
 
 ## Task A: Gender Classification (Binary Classification)
