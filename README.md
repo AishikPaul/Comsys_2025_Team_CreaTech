@@ -30,7 +30,7 @@
 
 ---
 
-## Task A: Image Classification with Multi-Scale Features
+## Task A: Gender Classification (Binary Classification)
 
 ### 🔧 Model Architecture
 
@@ -47,9 +47,9 @@
 
 - **Loss**: Categorical CrossEntropy  
 - **Optimizer**: Adam  
-- **Scheduler**: Learning rate scheduling  
+- **Scheduler**: Learning rate scheduling (ReduceLROnPlateau) 
 - **Early Stopping**: Enabled to prevent overfitting  
-- **Evaluation**: Accuracy & Validation Loss
+- **Evaluation**: Accuracy & Validation Loss and Accuracy
 
 ### Data Augmentation (Albumentations)
 
@@ -60,13 +60,13 @@
 
 ---
 
-## Task B: Visual Similarity Detection with Siamese Network
+## Task B: Face Recognition
 
 ### Model Architecture
 
 ![Task B Architecture](Diagrams/Task_B_diagram.jpg)
 
-- **Backbone**: Same encoder as Task A (`MSFF_WinAttn_MobileNet_Embedding`)
+- **Backbone**: Same encoder as Task A (but using the embeddings for matching using a Siamese like network `MSFF_WinAttn_MobileNet_Embedding`)
 - **Feature Generation**:
   - MobileNetV2 stages (same splits)
   - 1×1 Conv to unify channel depth
