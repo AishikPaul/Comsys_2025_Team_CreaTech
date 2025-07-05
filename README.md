@@ -100,7 +100,7 @@
 #### Pairs formed (for both +ve and -ve)
 - Normal-Normal
 - Normal-Distorted
-- Distorted-Distorted
+- Distorted-Distorted  
 All possible +ve pairs formed then -ve pairs formed accordingly to make balanced dataset
 
 ### Training Strategy
